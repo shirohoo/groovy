@@ -1,12 +1,12 @@
-package overview
+package groovy
 
 /**
  * String s = 'hello'  -> JDK String
- * String s = "hello"  -> GDK GString
+ * String s = "hello"  -> GDK GroovyGString
  *
  * GString은 String을 개량한 버전으로 String보다 더 많은 기능을 지원함
  */
-class GString {
+class GroovyGString {
     static void main(String[] args) {
         def jString = 'Welcom to Groovy'
         assert jString as java.lang.String
