@@ -17,7 +17,7 @@ class GroovySyntax {
         }
 
         // return은 생략해도 되며, return type을 def로 선언하면 동적타이핑이 된다
-        // 이 코드블록의 경우 GString을 반환 할 것
+        // 이 코드블록의 경우 쌍따옴표를 사용했으므로 GString을 반환 할 것이며, 보간사용 가능
         def getInformation() {
             "name: $this.name | age: $this.age"
         }
